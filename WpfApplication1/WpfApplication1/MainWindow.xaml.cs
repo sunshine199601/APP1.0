@@ -27,8 +27,8 @@ namespace WpfApplication1
 
         private void button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("恭喜你答对了！");
 
+            MessageBox.Show("恭喜你答对了！", "Congratulations！！", MessageBoxButton.OK, MessageBoxImage.Asterisk);
         }
 
         private void textBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -38,7 +38,7 @@ namespace WpfApplication1
 
         private void button_Click_1(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("那么小你都能点到，你还想选不是？？？");
+            MessageBox.Show("那么小你都能点到，你还想选不是？？？","Error", MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }
